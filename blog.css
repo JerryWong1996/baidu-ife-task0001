@@ -1,0 +1,305 @@
+header {
+		background:black;
+		height:80px;
+		margin-top:-12px;
+		margin-left:-8px;
+		margin-right:-8px;
+}
+
+#logo { display:inline-block;
+		margin-left:310px;
+		margin-top:30px;
+}
+
+#nav {display:inline-block;
+	  color:white;
+	  font-size:14px;
+	  position:absolute;
+	  right:310px;
+	  top:38px;}
+
+span {margin:0px 14px;}
+
+#github-top { position:absolute;
+			  right:10px;
+			  top:38px;
+			 }
+
+#banner {	margin-left:-8px;
+			margin-right:-8px;
+}
+
+
+
+footer {height:520px;
+		background:black;
+	    margin-left:-8px;
+	    margin-right:-8px;
+		margin-bottom:-8px;
+	    color:white;
+		clear:left;}
+
+footer #line {position:relative;
+			  top:44px;
+
+
+			  height:1px;
+	          background:white;}
+
+#navbottom {
+			text-align:center;
+			color:white;
+			font-size:14px;
+			margin-top:14px;
+			margin-bottom:14px;
+}
+
+#bottomlink {font-size:14px;
+			position:relative;
+			top:60px;}
+
+
+
+
+#bottomlink span.first {margin-left:310px;
+		margin-right:70px;}
+
+#bottomlink span {margin-left:70px;
+			 margin-right:70px;}
+
+#bottomlinkenglish {font-size:14px;
+					position:relative;
+					top:90px;
+					line-height:1.7em;}
+
+#bottomlinkenglish span.first {margin-left:310px;
+		                        margin-right:84px;}
+
+#bottomlinkenglish span {margin-left:84px;
+			      margin-right:84px;}
+
+#githubbottom { font-size:14px;
+				text-align:center;
+				position:relative;
+				top:252px;
+}
+
+
+
+
+
+body { background:#f6f6f6;}
+
+.main {        
+           float: left;       
+           width: 100%;
+           
+           height:1000px;
+           margin-top:20px;
+
+ }  
+
+ .main h1 { font-size:30px;}
+
+ .left {
+ 		margin-left:300px;
+ }
+.sub {       
+           float: left;        
+           width: 310px;        
+           margin-left: -100%;
+            
+             position: relative;        
+           left: -310px;  
+           height:50px;    
+}   
+.extra {        
+             float: left;        
+             width: 310px;        
+             margin-left: -310px;
+             background:yellow; 
+            position: relative;        
+           right: -318px;     
+ }
+
+ #bd {        
+          padding: 0 310px 0 310px;
+          background:#f6f6f6;   
+ }
+
+ #mejpg {width:166px;
+ 		 margin:0px auto;
+ 		 position:relative;
+ 		 top:-50px;
+ 		 border:5px black solid;
+ 		 border-radius:84px;
+ 		 }
+
+
+
+
+/*blog*/
+
+.section1 {
+	
+	width: 660px;
+	background:white;
+	
+	
+	padding:20px;
+
+
+}
+
+#left {width:700px;
+	   
+	}
+#right {background:black;
+		}
+
+.section1 h1,.section4 h1 {font-size: 16px;
+			  }
+
+.section1 h2,.section4 h2 {font-size: 12px;
+	        font-color:#666;}
+p.info {
+		
+		width:192px;
+		margin-left:468px;
+		}
+
+.section2 {
+	height: 80px;
+	width: 236px;
+	background:white;
+	float:right;
+	position:relative;
+	top:-578px;
+	
+}
+
+.section3 {
+	height: 200px;
+	width: 236px;
+	background:white;
+	float:right;
+	position:relative;
+	left:236px;
+	top:-488px;
+}
+
+.section5 {
+	height: 260px;
+	width: 236px;
+	background:white;
+	float:right;
+	position:relative;
+	left:473px;
+	top:-276px;
+
+}
+
+.section6 {
+	height: 200px;
+	width: 236px;
+	background:white;
+	float:right;
+	position:relative;
+	top:-264px;
+
+}
+
+
+
+.sidebar1 {
+			width:50px;
+			height:40px;
+			background:green;
+			float:left;
+			position:absolute;
+			top:130px;
+			left:268px;
+			
+
+}
+
+.sidebar2 {
+			width:50px;
+			height:40px;
+			background:blue;
+			float:left;
+			position:absolute;
+			left:268px;
+			top:170px;
+		
+
+}
+
+.sidebar3 {
+			width:50px;
+			height:40px;
+			background:black;
+			color:white;
+			float:left;
+			position:absolute;
+			top:430px;
+			left:268px;
+			
+
+}
+
+.sidebar4 {
+			width:50px;
+			height:40px;
+			background:red;
+			color:white;
+			float:left;
+			position:absolute;
+			left:268px;
+			top:470px;
+		
+
+}
+
+.section4 {
+	
+	width: 660px;
+	
+	background:white;
+	
+	margin-top:10px;
+	padding:20px;
+
+
+}
+
+#bottom { margin-top:10px;
+		  width:660px;
+		  background:red;}
+
+#bottom div {display:inline-block;}
+
+.section7 {
+	height: 40px;
+	width: 65px;
+	background:white;
+	text-align:center;
+	
+	
+}
+
+.section8 {
+	height: 40px;
+	width: 40px;
+	background:white;
+	text-align:center;
+	
+	
+}
+
+#bottom p {font-size:12px;}
+
+#test {background:white;
+	   height:65px;
+	   width:50px;
+	   }
