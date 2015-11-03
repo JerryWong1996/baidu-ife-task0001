@@ -186,16 +186,35 @@ p.info {
 	position:relative;
 	left:236px;
 	top:-488px;
+	font-size:16px;
+	vertical-align:middle;
 }
 
+.section3 div {height:50px;
+	line-height:49px;
+	border-bottom:1px solid black;
+	border-left:3px solid black;
+ 	padding-left:15px;}
+
+
 .section5 {
-	height: 260px;
-	width: 236px;
+	height: 220px;
+	width: 196px;
 	background:white;
 	float:right;
 	position:relative;
 	left:473px;
 	top:-276px;
+	padding:20px;
+	line-height:37px;
+	font-size:14px;
+
+}
+
+.section5 div {border-bottom:2px solid #f6f6f6;}
+
+.section5 span {margin-left:1px;
+				 margin-left:1px;
 
 }
 
@@ -208,6 +227,9 @@ p.info {
 	top:-264px;
 
 }
+
+.section6 span {margin-left:-2px;
+				margin-right:-2px;}
 
 
 
@@ -275,9 +297,14 @@ p.info {
 
 #bottom { margin-top:10px;
 		  width:660px;
-		  background:red;}
+		  background:black;}
 
-#bottom div {display:inline-block;}
+#bottom div {float:left;
+			 margin:0px 8px;
+			 position:relative;
+			 top:-250px;
+			 left:47px;
+			 }
 
 .section7 {
 	height: 40px;
@@ -297,7 +324,8 @@ p.info {
 	
 }
 
-#bottom p {font-size:12px;}
+#bottom p {font-size:12px;
+		 }
 
 #test {background:white;
 	   height:65px;
