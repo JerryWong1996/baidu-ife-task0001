@@ -7,7 +7,7 @@ header {
 }
 
 #logo { display:inline-block;
-		margin-left:310px;
+		margin-left:277px;
 		margin-top:30px;
 }
 
@@ -25,110 +25,15 @@ span {margin:0px 14px;}
 			  top:38px;
 			 }
 
-#banner {	margin-left:-8px;
-			margin-right:px;
 
-}
-
-#main {background:#f6f6f6;
-		height:520px;
-		margin-top:-25px;
-		margin-left:-8px;
-		margin-right:-8px;
-
-		}
-
-#section1 {
-			background:white;
-			display:inline-block;
-			width:320px;
-			height:400px;
-			border-width:1px;
-			margin-top:29px;
-			margin-left:310px;
-
-		}
-
-#section2 {
-			background:white;
-			display:inline-block;
-			width:320px;
-			height:400px;
-			border-width:1px;
-			
-			margin:0px auto;
-
-		}
-
-#section3 {
-			background:white;
-			display:inline-block;
-			width:320px;
-			height:400px;
-			border-width:1px;
-			margin-top:29px;
-			margin-right:-310px;
-
-		}
-
-
-#buliding {
-	     	margin-top:10px;
-	     	margin-left:10px;
-}
-
-#section1 p,#section2 p,#section3 p{padding-left:30px;
-		  padding-right:30px;
-		  padding-bottom:25px;
-		   margin-top:15px;
-		   font-size:12px;
-		   line-height:1.7em;}
-
-#sub{background:white;
-	  height:520px;
-	  }
-
-
-#touxiang {margin-left:auto;
-		   margin-right:auto;
-		   width:164px;
-		   position:relative;
-		   top:-150px;
-		   }
-
-
-#subh1 { margin:0px auto;
-		text-align:center;
-	     width:300px;
-	     position:relative;
-	     top:-100px;
-	     
-		  
-		
-		 
-		
-}
-
-#sub #container {
-				position:relative;
-				 top:100px; 
-}
-
-#subp {width:600px;
-	   font-size:14px;
-		line-height:1.7em;
-		margin-left:auto;
-		margin-right:auto;
-		position:relative;
-		top:-50px;
-		}
 
 footer {height:520px;
 		background:black;
 	    margin-left:-8px;
 	    margin-right:-8px;
 		margin-bottom:-8px;
-	    color:white;}
+	    color:white;
+		clear:left;}
 
 footer #line {position:relative;
 			  top:44px;
@@ -175,7 +80,9 @@ footer #line {position:relative;
 				top:252px;
 }
 
-
+#nav a:link {
+	color:black;
+}
 
 
 
