@@ -48,8 +48,9 @@ body {
  	background: white;
  	border: 1px solid #f6f6f6;
  	border-top: 3px solid white;
- 	padding: 0px 20px;
+ 	
  }
+
 
 
 .middle { 
@@ -179,7 +180,7 @@ body {
 	width: 220px;
 	height: 45px;
 	background: white;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-left: 710px;
 	margin-bottom: 10px;
 	padding: 20px;
@@ -310,11 +311,30 @@ p {
 }
 
 .top a {
+	display:inline-block;
 	border-top: 3px solid black;
 	padding-top: 5px;
-	width: 248px;
+	background:white;
+	padding:15px 15px 15px 15px  ;
+	
+	font-size:16px;
 }
 
 .top a:hover {
 	border-top: 3px solid yellow;
+}
+
+
+#inputbutton a{
+	position:relative;
+	top:10px;
+	padding:10px 15px;
+	border:1px solid black;
+}
+
+
+#inputbutton a:hover{
+	background:black;
+	color:white;
+
 }

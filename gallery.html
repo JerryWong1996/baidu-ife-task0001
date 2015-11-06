@@ -9,7 +9,7 @@
 	<body>
 		<header>
     		<div id="logo">
-				<img src="img/logo.png" alt="Jerrywong">
+				<a href="index.html"><img src="img/logo.png" alt="Jerrywong"></a>
 			</div>
 			<p id="nav">
 				<span><a class="innerlink" href="index.html">首页</a></span>
@@ -25,8 +25,8 @@
              <div id="bd">        
                 <div class="main">
                     <div class="top">
-                        <div><a href="gallery.html">All</a></div>
-                        <div><a href="gallery.html">JavaScript Util Functions</a></div>
+                        <div><a id="one" href="gallery.html">All</a></div>
+                        <div><a id="two" href="gallery.html">JavaScript Util Functions</a></div>
                         <div><a href="gallery.html">UI Components</a></div>
                         <div><a href="gallery.html">Framework</a></div>
                         <div><a href="gallery.html">Applocations</a></div>
@@ -140,10 +140,10 @@
                     <div class="right">
                         <div id="search">
                             <p>
-                                <input id="inputtext" type="text" value="">
-                                <a href="gallery.html"><div id="inputbutton">
-                                <p>GO</p>
-                                </div></a>
+                                <input id="inputtext" type="text" value="" placeholder="  Keywords" />
+                                <div id="inputbutton">
+                                <a id="searchbutton" href="gallery.html">GO</a>
+                                </div>
                             </p>
                         </div>
                     </div>                                 
